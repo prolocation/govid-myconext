@@ -2,13 +2,13 @@ Subject: Tip: use your personal email address
 
 Dear {{name}},
 
-You have created an eduID account using your educational institution's email address. It’s important to know that once you complete your studies, you will likely lose access to that email. This means you could also lose access to your eduID account. 
+You have created an govID account using your educational institution's email address. It’s important to know that once you complete your studies, you will likely lose access to that email. This means you could also lose access to your govID account. 
 
-However, you can continue using your eduID even after graduation. That’s why we recommend using your personal email address. You can update this in the settings on mijn.eduid.nl.
+However, you can continue using your govID even after graduation. That’s why we recommend using your personal email address. You can update this in the settings on mijn.govid.nl.
 
 Kind regards, 
-Team eduID
+Team govID
 
-Note: you cannot reply to this email. Need help? Visit eduid.nl/help-en
+Note: you cannot reply to this email. Need help? Visit govid.nl/help-en
 
 {{> footer_en.txt}}

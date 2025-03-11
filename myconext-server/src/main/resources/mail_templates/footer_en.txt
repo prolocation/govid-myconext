@@ -1,3 +1,3 @@
-Want to learn more about eduID? Visit https://www.eduid.nl
+Want to learn more about govID? Visit https://www.govid.nl
 
-eduID is powered by SURF.
+govID is powered by SURF.

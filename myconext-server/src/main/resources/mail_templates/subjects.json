@@ -1,56 +1,56 @@
 {
   "account_confirmation": {
-    "en": "Your eduID has been created",
-    "nl": "Je eduID is aangemaakt"
+    "en": "Your govID has been created",
+    "nl": "Je govID is aangemaakt"
   },
   "account_verification": {
-    "en": "Please verify your email address for your eduID",
-    "nl": "Verifieer je e-mailadres voor je eduID"
+    "en": "Please verify your email address for your govID",
+    "nl": "Verifieer je e-mailadres voor je govID"
   },
   "magic_link": {
     "en": "Magic Link to login",
     "nl": "Magische link om in te loggen"
   },
   "reset_password": {
-    "en": "Reset your eduID password",
-    "nl": "Reset je eduID wachtwoord"
+    "en": "Reset your govID password",
+    "nl": "Reset je govID wachtwoord"
   },
   "add_password": {
-    "en": "Add an eduID password",
-    "nl": "Toevoegen eduID wachtwoord"
+    "en": "Add an govID password",
+    "nl": "Toevoegen govID wachtwoord"
   },
   "update_email": {
-    "en": "Update your eduID email",
-    "nl": "Verander je eduID email"
+    "en": "Update your govID email",
+    "nl": "Verander je govID email"
   },
   "confirmation_update_email": {
-    "en": "Change of eduID email",
-    "nl": "Aanpassing eduID email"
+    "en": "Change of govID email",
+    "nl": "Aanpassing govID email"
   },
 
   "verification_code": {
-    "en": "eduID verification code",
-    "nl": "eduID verificatie code"
+    "en": "govID verification code",
+    "nl": "govID verificatie code"
   },
   "new_device": {
-    "en": "New eduID device sign-in",
-    "nl": "Nieuw apparaat ingelogd op eduID"
+    "en": "New govID device sign-in",
+    "nl": "Nieuw apparaat ingelogd op govID"
   },
   "institution_mail_warning": {
     "en": "Tip: use your personal email address",
     "nl": "Tip: gebruik je persoonlijke e-mailadres"
   },
   "nudge_eduid_app": {
-    "en": "Log in faster and more securely with the eduID app",
-    "nl": "Log sneller en veiliger in met de eduID app"
+    "en": "Log in faster and more securely with the govID app",
+    "nl": "Log sneller en veiliger in met de govID app"
   },
   "inactivity_warning_years_ahead": {
-    "en": "Important message about your eduID",
-    "nl": "Belangrijk bericht over je eduID"
+    "en": "Important message about your govID",
+    "nl": "Belangrijk bericht over je govID"
   },
   "inactivity_warning_short_term": {
-    "en": "Important: your eduID will be deleted soon",
-    "nl": "Belangrijk: je eduID wordt binnenkort verwijderd"
+    "en": "Important: your govID will be deleted soon",
+    "nl": "Belangrijk: je govID wordt binnenkort verwijderd"
   }
 
 }

@@ -1,5 +1,5 @@
 Hi {{name}},
 
-Je eduID is nu geactiveerd.
+Je govID is nu geactiveerd.
 
 {{> footer_nl.txt}}

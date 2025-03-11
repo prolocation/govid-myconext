@@ -1,15 +1,15 @@
 Update email
 
-Follow the link below to change your eduID email.
+Follow the link below to change your govID email.
 This link will expire in an hour and can only be used once.
 
 {{mySurfConextURL}}/{{mobileContext}}update-email?h={{hash}}
 
-Change your eduID email
+Change your govID email
 
 Hi {{name}},
 
-Someone has just requested a link to change your email for eduID to this email address. If this was you
+Someone has just requested a link to change your email for govID to this email address. If this was you
 you can change your email by clicking the button above.
 If you do not wish to change your email, you can ignore this message.
 

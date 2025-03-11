@@ -1,12 +1,12 @@
 Beste {{name}},
 
-We willen je eraan herinneren dat je een eduID hebt die je al {{inactivity_period_nl}} niet gebruikt hebt. Doe je niets, dan wordt je eduID over {{deletion_period_nl}}, op {{account_delete_date_nl}} verwijderd.
+We willen je eraan herinneren dat je een govID hebt die je al {{inactivity_period_nl}} niet gebruikt hebt. Doe je niets, dan wordt je govID over {{deletion_period_nl}}, op {{account_delete_date_nl}} verwijderd.
 
-Wil je je eduID behouden? Log dan in op mijn.eduid.nl. Zorg ervoor dat je eduID up-to-date blijft. Denk hierbij aan gegevens zoals je e-mailadres en hoe je wilt inloggen. Je vindt dit terug onder 'Veiligheid'.
+Wil je je govID behouden? Log dan in op mijn.govid.nl. Zorg ervoor dat je govID up-to-date blijft. Denk hierbij aan gegevens zoals je e-mailadres en hoe je wilt inloggen. Je vindt dit terug onder 'Veiligheid'.
 
 Met vriendelijke groet,
-Team eduID
+Team govID
 
-Let op: je kunt niet reageren op deze e-mail. Heb je hulp nodig? Ga dan naar eduid.nl/help
+Let op: je kunt niet reageren op deze e-mail. Heb je hulp nodig? Ga dan naar govid.nl/help
 
 {{> footer_en.txt}}

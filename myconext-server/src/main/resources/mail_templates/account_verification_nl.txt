@@ -1,14 +1,14 @@
-Je hebt een eduID aangevraagd. Klik op de onderstaande link om te bevestigen
+Je hebt een govID aangevraagd. Klik op de onderstaande link om te bevestigen
 dat dit e-mailadres van jou is:
 
 {{magicLinkUrl}}?h={{hash}}
 
 Hallo {{name}},
 
-Iemand heeft zojuist een eduID aangevraagd met dit e-mailadres. Als jij dit was, moet je
+Iemand heeft zojuist een govID aangevraagd met dit e-mailadres. Als jij dit was, moet je
 je e-mailadres bevestigen door op de knop hierboven te klikken.
 
-Als je geen eduID wilt of er niet om hebt gevraagd, kun je dit bericht gewoon negeren
+Als je geen govID wilt of er niet om hebt gevraagd, kun je dit bericht gewoon negeren
 of verwijderen.
 
 {{> footer_nl.txt}}

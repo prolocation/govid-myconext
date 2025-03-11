@@ -1,12 +1,12 @@
 Dear {{name}},
 
-Welcome to eduID! Your personal account for verifying your identity with educational and research institutions in the Netherlands.
+Welcome to govID! Your personal account for verifying your identity with educational and research institutions in the Netherlands.
 
-Want to log in to eduID even faster and more securely? Use the eduID app to log in extra securely — without needing a password. Download the app via eduid.nl/app-en.
+Want to log in to govID even faster and more securely? Use the govID app to log in extra securely — without needing a password. Download the app via govid.nl/app-en.
 
 Kind regards,
-Team eduID
+Team govID
 
-Note: you cannot reply to this email. Need help? Visit eduid.nl/help-en
+Note: you cannot reply to this email. Need help? Visit govid.nl/help-en
 
 {{> footer_en.txt}}

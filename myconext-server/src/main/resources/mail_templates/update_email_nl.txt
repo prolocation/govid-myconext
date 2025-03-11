@@ -1,15 +1,15 @@
 Update email
 
-Volg de onderstaande link om je eduID email te wijzigen.
+Volg de onderstaande link om je govID email te wijzigen.
 Deze link verloopt over een uur en kan maar één keer worden gebruikt.
 
 {{mySurfConextURL}}/{{mobileContext}}update-email?h={{hash}}
 
-Verander je eduID email
+Verander je govID email
 
 Hi {{name}},
 
-Iemand heeft zojuist een link aangevraagd om jouw email voor eduID te wijzigen naar dit e-mailadres. Als jij dit was,
+Iemand heeft zojuist een link aangevraagd om jouw email voor govID te wijzigen naar dit e-mailadres. Als jij dit was,
 kun je email wijzigen door op de bovenstaande knop te klikken.
 Als je je email niet wenst te wijzigen dan kun je dit bericht verder negeren.
 

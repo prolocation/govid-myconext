@@ -1,5 +1,5 @@
 Hi {{name}},
 
-Your eduID is now activated.
+Your govID is now activated.
 
 {{> footer_en.txt}}
