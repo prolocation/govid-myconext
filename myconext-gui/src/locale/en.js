@@ -252,7 +252,7 @@ I18n.translations.en = {
         downloadDataConfirmation: "The download of your personal data from your govID account contains all the information we have about you. It also contains technical keys and references.",
         deleteTitle: "Deleting your govID account",
         info1: "You can delete your govID whenever you want.",
-        info2: "Proceed with care, as you will lose the unique govID number currently associated with your email address. When you re-register for a new govID with that same email address, you will receive a new eduID number. Some applications use this unique number to identify you, so for those applications you will be treated as a new user.",
+        info2: "Proceed with care, as you will lose the unique govID number currently associated with your email address. When you re-register for a new govID with that same email address, you will receive a new govID number. Some applications use this unique number to identify you, so for those applications you will be treated as a new user.",
         info3: "Please note that deleting your govID account does not mean all applications you accessed with that govID account will also have your data removed.",
         info4: "To fully complete the process of deleting your govID account you must close your browser after your account has been removed.",
         deleteAccount: "Delete my account",
@@ -267,7 +267,7 @@ I18n.translations.en = {
     },
     dataActivity: {
         title: "Data & Activity",
-        info: "Each application you accessed through govID receives certain personal data from your govID account. For example, your name, your email address or a unique eduID number which the application can use to identify you.",
+        info: "Each application you accessed through govID receives certain personal data from your govID account. For example, your name, your email address or a unique govID number which the application can use to identify you.",
         explanation: "Apps you logged in to using govID.",
         noServices: "You did not yet use govID to login to any application.",
         name: "Name",

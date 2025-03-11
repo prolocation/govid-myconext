@@ -254,7 +254,7 @@ I18n.translations.nl = {
         personalInfo: "Klik op de onderstaande knop om al je persoonlijke gegevens uit je govID account te downloaden.",
         deleteTitle: "Je govID account verwijderen",
         info1: "Je kunt je govID account verwijderen wanneer je maar wilt.",
-        info2: "Let op, je verliest de unieke govID nummers die aan je e-mailadres zijn gekoppeld. Wanneer je je opnieuw registreert voor govID met hetzelfde e-mailadres, krijg je nieuwe eduID nummers. Sommige applicaties gebruiken deze nummers om je te herkennen, dus voor die applicaties word je dan gezien als een nieuwe gebruiker. ",
+        info2: "Let op, je verliest de unieke govID nummers die aan je e-mailadres zijn gekoppeld. Wanneer je je opnieuw registreert voor govID met hetzelfde e-mailadres, krijg je nieuwe govID nummers. Sommige applicaties gebruiken deze nummers om je te herkennen, dus voor die applicaties word je dan gezien als een nieuwe gebruiker. ",
         info3: "Houd er rekening mee dat het verwijderen van je govID niet betekent dat alle applicaties die je met je govID hebt gebruikt, ook je gegevens zullen verwijderen.",
         info4: "Om het verwijderen van je govID volledig te voltooien, moet je nadat je account is verwijderd je browser afsluiten.",
         deleteAccount: "Verwijder mijn govID",
@@ -269,7 +269,7 @@ I18n.translations.nl = {
     },
     dataActivity: {
         title: "Gebruikte applicaties",
-        info: "Elke applicatie waarvoor je govID gebruikt ontvangt persoonsgegevens vanuit jouw govID account. Denk hierbij aan je naam, e-mailadres of aan een uniek eduID nummer waarmee de applicatie jou kan herkennen.",
+        info: "Elke applicatie waarvoor je govID gebruikt ontvangt persoonsgegevens vanuit jouw govID account. Denk hierbij aan je naam, e-mailadres of aan een uniek govID nummer waarmee de applicatie jou kan herkennen.",
         explanation: "Applicaties waarop je bent ingelogd via govID.",
         noServices: "Je bent nog niet ingelogd geweest op een applicatie via govID.",
         name: "Naam",
