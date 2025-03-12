@@ -1,6 +1,6 @@
 <script>
 
-    import eduIDLogo from "../img/logo_eduID.svg?raw";
+    import eduIDLogo from "../img/logo_govID.svg?raw";
     // import eduIDLogo from './assets/svelte.svg?component'
 </script>
 

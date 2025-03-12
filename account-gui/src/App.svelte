@@ -256,7 +256,7 @@
                 <SubContent question={I18n.t("options.noLogin")}
                             preLink={I18n.t("options.learn")}
                             linkText={I18n.t("options.learnLink")}
-                            href="https://eduid.nl/help"/>
+                            href="https://govid.nl/help"/>
             </Route>
         </Router>
         <Footer/>

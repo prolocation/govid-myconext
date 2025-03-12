@@ -2,19 +2,19 @@ import I18n from "i18n-js";
 
 I18n.translations.en = {
     login: {
-        requestEduId: "No eduID?",
+        requestEduId: "No govID?",
         requestEduId2: "Create one!",
         loginEduId: "Login!",
-        whatis: "What is eduID?",
-        header: "Sign in with eduID",
+        whatis: "What is govID?",
+        header: "Sign in with govID",
         headerSubTitle: "to continue to ",
-        header2: "Request your eduID",
+        header2: "Request your govID",
         trust: "Trust this computer",
         loginOptions: "Other sign-in options",
         loginOptionsToolTip: "We offer 3 ways to sign-in:</br><ol>" +
             "<li>You can receive a magic link sent to your email address.</li>" +
-            "<li>You can use a password. You must first set this up in My eduID.</li>" +
-            "<li>You can use a security key. You must first set this up in My eduID.</li>" +
+            "<li>You can use a password. You must first set this up in My govID.</li>" +
+            "<li>You can use a security key. You must first set this up in My govID.</li>" +
             "</ol>",
         email: "Your email address",
         emailPlaceholder: "e.g. user@gmail.com",
@@ -31,35 +31,35 @@ I18n.translations.en = {
         useMagicLinkNoWebAuthn: "Email a magic link.",
         useWebAuth: "Sign in with a security key",
         useOr: "or",
-        requestEduIdButton: "Request your eduID",
+        requestEduIdButton: "Request your govID",
         rememberMe: "Stay logged in",
         password: "Your password",
         passwordForgotten: "Forgot your password or prefer a magic link? ",
         passwordForgottenLink: "Receive an email to sign in instantly.",
         login: "Login",
         create: "Create",
-        newTo: "New to eduID?",
+        newTo: "New to govID?",
         createAccount: " Create an account.",
         useExistingAccount: "Use existing account",
         invalidEmail: "Invalid email",
         requiredAttribute: "{{attr}} is required",
         emailInUse1: "This email is already in use.",
         emailInUse2: "Try another, or ",
-        emailInUse3: " login with this eduID account.",
-        emailForbidden: "The creation of an eduID account for this email-domain is denied, please contact <a href=\"mailto:help@eduid.nl\">help@eduid.nl</a> if you think this email-domain is valid.",
-        emailNotFound1: "We could not find an eduID with that email.",
+        emailInUse3: " login with this govID account.",
+        emailForbidden: "The creation of an govID account for this email-domain is denied, please contact <a href=\"mailto:help@govid.nl\">help@govid.nl</a> if you think this email-domain is valid.",
+        emailNotFound1: "We could not find an govID with that email.",
         emailNotFound2: "Try another, or ",
-        emailNotFound3: "create a new eduID account.",
+        emailNotFound3: "create a new govID account.",
         emailOrPasswordIncorrect: "Email or password are incorrect",
         institutionDomainNameWarning: "It looks like you entered an institutional email address. Please note that when you no longer study at or work for that institution, you can no longer use that email address.",
-        institutionDomainNameWarning2: "We recommend using your personal email address for eduID.",
+        institutionDomainNameWarning2: "We recommend using your personal email address for govID.",
         allowedDomainNamesError: "Domain name {{domain}} not allowed.",
-        allowedDomainNamesError2: "eduID is restricted to be used only for allowed domains.",
+        allowedDomainNamesError2: "govID is restricted to be used only for allowed domains.",
         passwordDisclaimer: "Make sure it's at least 15 characters long OR at least 8 characters when including a number and an UpperCase letter.",
-        alreadyGuestAccount: "Already have an eduID?",
+        alreadyGuestAccount: "Already have an govID?",
         usePasswordLink: "Type a password anyway",
         useWebAuthnLink: "Or use a security key",
-        agreeWithTerms: "<span>I agree with <a tabindex='-1' href='https://eduid.nl/terms-of-use/' target='_blank'>the terms of service.</a> I also understand <a tabindex='-1' href='https://eduid.nl/privacy_policy/' target='_blank'>the privacy policy</a>.</span>",
+        agreeWithTerms: "<span>I agree with <a tabindex='-1' href='https://govid.nl/terms-of-use/' target='_blank'>the terms of service.</a> I also understand <a tabindex='-1' href='https://govid.nl/privacy_policy/' target='_blank'>the privacy policy</a>.</span>",
         next: "Next",
         useOtherAccount: "Use another account",
         noAppAccess: "No access to your app?",
@@ -74,7 +74,7 @@ I18n.translations.en = {
         noLogin: "Still not able to login?",
         learn: "Learn how to",
         learnLink: "recover your acccount",
-        useApp: "Use the <strong>eduID app</strong> to sign in with your mobile device.",
+        useApp: "Use the <strong>govID app</strong> to sign in with your mobile device.",
         useWebAuthn: "Use your <strong>security key</strong>.",
         useLink: "Get a <strong>magic link</strong> sent to your inbox.",
         usePassword: "Use <strong>a password</strong>.",
@@ -101,7 +101,7 @@ I18n.translations.en = {
     },
     confirm: {
         header: "Success!",
-        thanks: "Your eduID account has been created. Proceed to your destination.",
+        thanks: "Your govID account has been created. Proceed to your destination.",
     },
     confirmStepup: {
         header: "Thanks!",
@@ -126,58 +126,58 @@ I18n.translations.en = {
     redirectMobileApp: {
         "account-linked": {
             title: "Account linked!",
-            info: "Your institutional account has been linked, click the button below to open your new account in the eduID app.",
+            info: "Your institutional account has been linked, click the button below to open your new account in the govID app.",
         },
         "add-password": {
             title: "New password requested!",
-            info: "To add your new password, click the button below to open eduID app.",
+            info: "To add your new password, click the button below to open govID app.",
         },
         created: {
             title: "Account created!",
-            info: "Your account has been created, click the button below to open your new account in the eduID app.",
+            info: "Your account has been created, click the button below to open your new account in the govID app.",
         },
         "eppn-already-linked": {
             title: "EPPN already linked!",
-            info: "Your account has not been linked, click the button below to open the eduID app.",
+            info: "Your account has not been linked, click the button below to open the govID app.",
         },
         "subject-already-linked": {
             title: "Subject already linked!",
-            info: "Your account has not been verified, click the button below to open the eduID app.",
+            info: "Your account has not been verified, click the button below to open the govID app.",
         },
         expired: {
             title: "Session expired!",
-            info: "Your account has not been linked, click the button below to open the eduID app.",
+            info: "Your account has not been linked, click the button below to open the govID app.",
         },
         fallback: {
-            title: "eduID app!",
-            info: "You have opened a link to the eduID app in the browser, click the button below to open eduID app."
+            title: "govID app!",
+            info: "You have opened a link to the govID app in the browser, click the button below to open govID app."
         },
         "reset-password": {
             title: "Reset password requested!",
-            info: "To reset your password, click the button below to open eduID app.",
+            info: "To reset your password, click the button below to open govID app.",
         },
         "security": {
             title: "Security!",
-            info: "To view and update your security settings, click the button below to open eduID app.",
+            info: "To view and update your security settings, click the button below to open govID app.",
         },
         "update-email": {
             title: "New email confirmed!",
-            info: "To finalize your email update, click the button below to open eduID app.",
+            info: "To finalize your email update, click the button below to open govID app.",
         },
         "external-account-linked": {
             title: "External Account linked!",
-            info: "Your external account has been linked, click the button below to open your new account in the eduID app.",
+            info: "Your external account has been linked, click the button below to open your new account in the govID app.",
         },
         "external-account-linked-error": {
             title: "External account error!",
-            info: "Your external account has not been verified, click the button below to open the eduID app.",
+            info: "Your external account has not been verified, click the button below to open the govID app.",
         },
-        proceedLink: "Go to eduID app"
+        proceedLink: "Go to govID app"
     },
     expired: {
         title: "Expired magic link",
         info: "The magic link you used is either expired or has already been used.",
-        back: "Go to eduid.nl"
+        back: "Go to govid.nl"
     },
     maxAttempt: {
         title: "Maximum attempts reached",
@@ -189,7 +189,7 @@ I18n.translations.en = {
     },
     webAuthn: {
         info: "Add security key",
-        browserPrompt: "Click the button below to add a security key to your eduID account. Please follow the instructions given by your browser.",
+        browserPrompt: "Click the button below to add a security key to your govID account. Please follow the instructions given by your browser.",
         start: "Start",
         header: "Sign in with a security key",
         explanation: "Your device will open a security window. Follow the instructions there to sign in.",
@@ -205,9 +205,9 @@ I18n.translations.en = {
         passwordIncorrect: "Password is incorrect"
     },
     useApp: {
-        header: "Check your eduID app",
+        header: "Check your govID app",
         info: "We have sent a push-notification to your app, to verify it's you trying to sign in.",
-        scan: "Scan this QR code with your eduID app",
+        scan: "Scan this QR code with your govID app",
         noNotification: "No notification?",
         qrCodeLink: "Create a QR-code",
         qrCodePostfix: "and scan it.",
@@ -215,7 +215,7 @@ I18n.translations.en = {
         offlineLink: "one time code.",
         openEduIDApp: "Open the app on this device",
         lost: "Lost your app?",
-        lostLink: "Learn <a href=\"https://eduid.nl/help\" target=\"_blank\">how to register a new one</a>.",
+        lostLink: "Learn <a href=\"https://govid.nl/help\" target=\"_blank\">how to register a new one</a>.",
         timeOut: "Session timeout",
         timeOutInfoFirst: "Your session timed out. Click this ",
         timeOutInfoLast: " to try again.",
@@ -225,25 +225,25 @@ I18n.translations.en = {
         existingRegistrationInfoLast: " to try to login again.",
         existingRegistrationInfoLink: "link",
         responseIncorrect: "The response is invalid.",
-        suspendedResult: "The verification from your eduID app failed. ",
+        suspendedResult: "The verification from your govID app failed. ",
         accountNotSuspended: "You can try again.",
         accountSuspended: "You'll have to wait {{minutes}} {{plural}} before you can try again.",
         minutes: "minutes",
         minute: "minute"
     },
     enrollApp: {
-        header: "Finish setup in the eduID app"
+        header: "Finish setup in the govID app"
     },
     recovery: {
         header: "Set up a recovery method",
-        info: "If you can't access eduID with the app or via email, you can use a recovery method to sign in to your eduID account.",
+        info: "If you can't access govID with the app or via email, you can use a recovery method to sign in to your govID account.",
         methods: "The following methods are available.",
         phoneNumber: "Add a recovery phone number.",
         phoneNumberInfo: "You'll receive a text message with a code.",
         backupCode: "Request a recovery code.",
         backupCodeInfo: "The code can be used to sign in with.",
         save: "Save the code somewhere safe.",
-        active: "This code is active now, but you can generate a new code within My-eduID anytime.",
+        active: "This code is active now, but you can generate a new code within My-govID anytime.",
         copy: "Copy the code",
         copied: "Copied",
         continue: "My code is safe. Continue",
@@ -259,7 +259,7 @@ I18n.translations.en = {
     },
     congrats: {
         header: "Success",
-        info: "You can now use the eduID app to quickly login to applications which require you to login with your eduID.",
+        info: "You can now use the govID app to quickly login to applications which require you to login with your govID.",
         next: "Onwards to {{name}}"
     },
     webAuthnTest: {
@@ -269,70 +269,70 @@ I18n.translations.en = {
     },
     affiliationMissing: {
         header: "Account linked, but...",
-        info: "Your eduID is successfully linked, however the institution you choose did not provide an affiliation.",
+        info: "Your govID is successfully linked, however the institution you choose did not provide an affiliation.",
         proceed: "You can try to link to another institution or proceed to {{name}}.",
         proceedLink: "Proceed",
         retryLink: "Retry"
     },
     eppnAlreadyLinked: {
         header: "Account not linked!",
-        info: "Your eduID could not be linked. The trusted account with which you just logged in, is already linked to a different eduID account: {{email}}.",
+        info: "Your govID could not be linked. The trusted account with which you just logged in, is already linked to a different govID account: {{email}}.",
         proceed: "You can try to link to another institution or proceed to {{name}}.",
         proceedLink: "Proceed",
         retryLink: "Retry"
     },
     attributeMissing: {
         header: "Account not linked!",
-        info: "Your eduID could not be linked. The trusted account with which you just logged in, did not provide and EPPN.",
+        info: "Your govID could not be linked. The trusted account with which you just logged in, did not provide and EPPN.",
         proceed: "You can try to link to another institution or proceed to {{name}}.",
         proceedLink: "Proceed",
         retryLink: "Retry"
     },
     subjectAlreadyLinked: {
         header: "Account not verified!",
-        info: "Your eduID could not be verified. The external account with which you just logged in, is already linked to a different eduID account.",
+        info: "Your govID could not be verified. The external account with which you just logged in, is already linked to a different govID account.",
         proceed: "You can try to verify your account again or proceed to {{name}}.",
         proceedLink: "Proceed",
         retryLink: "Retry"
     },
     externalAccountLinkedError: {
         header: "Account not verified!",
-        info: "Your eduID could not be verified. The trusted party you selected returned an error."
+        info: "Your govID could not be verified. The trusted party you selected returned an error."
     },
     validNameMissing: {
         header: "Account linked, but...",
-        info: "Your eduID is successfully linked, however the institution you choose did not provide a valid name.",
+        info: "Your govID is successfully linked, however the institution you choose did not provide a valid name.",
         proceed: "You can try to link to another institution or proceed to {{name}}.",
         proceedLink: "Proceed",
         retryLink: "Retry"
     },
     stepUpExplanation: {
-        linked_institution: "Your eduID account must be linked to a trusted party.",
+        linked_institution: "Your govID account must be linked to a trusted party.",
         validate_names: "Your first name and last name must be verified by a trusted party.",
         validate_names_external: "Your identity must be verified by a trusted party.",
-        affiliation_student: "You must prove that you are following education by linking your eduID account to a trusted party."
+        affiliation_student: "You must prove that you are following education by linking your govID account to a trusted party."
     },
     stepUpVerification: {
-        linked_institution: "Your eduID account is linked to a trusted party.",
+        linked_institution: "Your govID account is linked to a trusted party.",
         validate_names: "Your first name and last name are verified by a trusted party.",
         validate_names_external: "Your identity is verified by a trusted party.",
-        affiliation_student: "You have proven that you are following education by linking your eduID account to a trusted party."
+        affiliation_student: "You have proven that you are following education by linking your govID account to a trusted party."
     },
     nudgeApp: {
-        new: "Your eduID account has been created!",
+        new: "Your govID account has been created!",
         header: "Want to sign in quicker and more secure next time?",
-        info: "Get the <strong>eduID app</strong> and securely sign in without passwords or accessing your email. It will only take a minute.",
+        info: "Get the <strong>govID app</strong> and securely sign in without passwords or accessing your email. It will only take a minute.",
         no: "No thanks",
         noLink: "/proceed",
         yes: "Get it now",
         yesLink: "/eduid-app"
     },
     getApp: {
-        header: "Download the eduID app",
-        info: "Download and install <a href=\"https://eduid.nl/help\" target=\"_blank\">the eduID app</a> (issued by SURF) on your mobile device.",
+        header: "Download the govID app",
+        info: "Download and install <a href=\"https://govid.nl/help\" target=\"_blank\">the govID app</a> (issued by SURF) on your mobile device.",
         google: "https://play.google.com/store/apps/details?id=nl.eduid",
         apple: "https://apps.apple.com/nl/app/eduid/id1600756434",
-        after: "When you've downloaded the eduID app on your phone, come back here and click next.",
+        after: "When you've downloaded the govID app on your phone, come back here and click next.",
         back: "Back",
         next: "Next"
     },
@@ -356,21 +356,21 @@ I18n.translations.en = {
         confirm: "Confirm",
     },
     appRequired: {
-        header: "Login with the eduID app",
-        info: "Login with the eduID app to ensure your identity.",
-        info2: "Get the <strong>eduID app</strong> and securely sign in without passwords or accessing your email. It will only take a minute. Please click <strong>Proceed</strong> for the next step.",
+        header: "Login with the govID app",
+        info: "Login with the govID app to ensure your identity.",
+        info2: "Get the <strong>govID app</strong> and securely sign in without passwords or accessing your email. It will only take a minute. Please click <strong>Proceed</strong> for the next step.",
         cancel: "/cancel",
         no: "I refuse",
         yesLink: "/proceed",
         yes: "Proceed",
-        warning: "Login without the eduID app is not allowed. You will not be able to log in to {{service}}.",
-        warningTitle: "Get the eduID app",
-        confirmLabel: "Get the eduID app",
+        warning: "Login without the govID app is not allowed. You will not be able to log in to {{service}}.",
+        warningTitle: "Get the govID app",
+        confirmLabel: "Get the govID app",
         cancelLabel: "I still refuse"
     },
     subContent: {
         warningTitle: "Please reconsider",
-        warning: "The application has requested you login using your eduID app. If you login with a different method, this application will not receive your personal data.",
+        warning: "The application has requested you login using your govID app. If you login with a different method, this application will not receive your personal data.",
         confirmLabel: "Change login option anyway",
         cancelLabel: "Did not know that"
     },
@@ -389,7 +389,7 @@ I18n.translations.en = {
                 verifyEuropeanId: "Verify with a European ID",
                 supportEuropean: "We support the majority of National digital IDs",
                 useEuropean: "Use a European ID",
-                help: "If you can't use any of the these methods, please visit our <a href='https://eduid.nl/help' target='_blank' rel='noreferrer'>support pages</a>"
+                help: "If you can't use any of the these methods, please visit our <a href='https://govid.nl/help' target='_blank' rel='noreferrer'>support pages</a>"
             },
             bank: {
                 select: "Select your bank",
@@ -401,7 +401,7 @@ I18n.translations.en = {
         },
         feedback: {
             newInstitutionTitle: "was contacted successfully",
-            newInstitutionInfo: "The following information has been added to your eduID and can now be shared.",
+            newInstitutionInfo: "The following information has been added to your govID and can now be shared.",
             validatedGivenName: "Verified given name",
             validatedFamilyName: "Verified family name",
             validatedDayOfBirth: "Verified date of birth"

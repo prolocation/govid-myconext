@@ -41,7 +41,7 @@
     const proceed = () => {
         /*
          * We have several options here. Either the $conf.featureIdVerify is set to False and we
-         * right away proceed to the WAYF. Or the requested ACR is https://eduid.nl/trust/validate-names-external
+         * right away proceed to the WAYF. Or the requested ACR is https://govid.nl/trust/validate-names-external
          * and the feature toggle $conf.featureIdVerify is True then we show only the bank chooser or
          * we show all options. There is no need to switch
          */
