@@ -14,8 +14,8 @@
 
     let isEn = I18n.locale === "en";
     let helpUrl = isEn ? "/help_en/" : "/help/";
-    let privacyUrl = "https://mijn.govid.nl/privacyverklaring/";
-    let termsUrl = "https://mijn.govid.nl/voorwaarden/";
+    let privacyUrl = "https://govroam.nl/stichting-govroam/privacy";
+    let termsUrl = "https://govroam.nl/aansluiten/voorwaarden/";
 
 </script>
 
