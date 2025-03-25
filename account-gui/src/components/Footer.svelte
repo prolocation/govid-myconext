@@ -13,8 +13,8 @@
     };
 
     let isEn = I18n.locale === "en";
-    let privacyUrl = isEn ? "https://govid.nl/privacy-policy/" : "https://govid.nl/privacy/";
-    let termsUrl = isEn ? "https://govid.nl/terms-of-use/" : "https://govid.nl/gebruiksvoorwaarden/";
+    let privacyUrl = "https://govroam.nl/stichting-govroam/privacy";
+    let termsUrl = "https://govroam.nl/aansluiten/voorwaarden/";
 
 </script>
 
@@ -101,7 +101,7 @@
 <div class="footer">
     <div class="inner">
         <div class="help">
-            <a class="white" href={termsUrl} target="_blank">{I18n.t("footer.terms")}</a>
+            <a class="whime" href={termsUrl} target="_blank">{I18n.t("footer.terms")}</a>
             <a class="white" href={privacyUrl} target="_blank">{I18n.t("footer.privacy")}</a>
         </div>
 

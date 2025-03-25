@@ -117,7 +117,7 @@ I18n.translations.en = {
         privacy: "Privacy policy",
         terms: "Terms of Use",
         help: "Help",
-        poweredBy: "Powered by"
+        poweredBy: "Aangeboden door govroam, o.b.v. software van"
     },
     success: {
         title: "Login almost done!",

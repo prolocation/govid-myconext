@@ -117,7 +117,7 @@ I18n.translations.nl = {
         privacy: "Privacy",
         terms: "Voorwaarden",
         help: "Help",
-        poweredBy: "Powered by"
+        poweredBy: "Aangeboden door govroam, o.b.v. software van"
     },
     success: {
         title: "Inloggen bijna geslaagd!",
