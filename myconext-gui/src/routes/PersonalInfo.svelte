@@ -579,25 +579,8 @@
                        onSave={value => updateEmailValue(value)}
                        onCancel={() => cancelEmailEditMode()}
             />
-            <p class="info-section second">{I18n.t("profile.role")}</p>
-            <section class="linked-accounts">
-                {#each sortedAccounts as account}
-                    <InstitutionRole manageVerifiedInformation={() => manageVerifiedInformation("manage")}
-                                     linkedAccount={account}/>
-                {/each}
-            </section>
-            <div class="add-institution"
-                 on:click={() => addIdentity(false)}>
-                <div class="info">
-                    <p>{I18n.t("profile.addInstitution")}</p>
-                    <em class="info">{I18n.t(`profile.${($config.featureIdVerify && isEmpty($user.externalLinkedAccounts)) ? "proceedVerify" : "proceedConext"}`)}</em>
-                </div>
-                <span class="add">+</span>
-            </div>
-
-
+<!--            <p class="info-section second">{I18n.t("profile.role")}</p> -->
         </div>
-
     {/if}
 </div>
 {#if outstandingPasswordForgotten}
