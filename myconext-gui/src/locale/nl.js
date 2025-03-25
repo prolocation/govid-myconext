@@ -386,7 +386,7 @@ I18n.translations.nl = {
         privacy: "Privacybeleid",
         terms: "Voorwaarden",
         help: "Help",
-        poweredBy: "Aangeboden door"
+        poweredBy: "Aangeboden door govroam, o.b.v. software van"
     },
     modal: {
         cancel: "Annuleren",

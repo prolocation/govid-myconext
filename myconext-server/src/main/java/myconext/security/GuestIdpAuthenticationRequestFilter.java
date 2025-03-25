@@ -231,12 +231,7 @@ public class GuestIdpAuthenticationRequestFilter extends OncePerRequestFilter {
                 String mfa = "";
                 if (mfaProfileRequired) {
                     List<String> loginOptions = previousAuthenticatedUser.loginOptions();
-                    if (loginOptions.contains(LoginOptions.APP.getValue())) {
-                        redirect = "/" + LoginOptions.APP.getValue().toLowerCase() + "/";
-                        mfa = "&mfa=true";
-                    } else {
-                        redirect = "/" + loginOptions.get(0).toLowerCase() + "/";
-                    }
+                    redirect = "/" + loginOptions.get(0).toLowerCase() + "/";
                 }
                 String location = this.redirectUrl + redirect + samlAuthenticationRequest.getId()
                         + "?explanation=" + explanation + mfa;
@@ -494,7 +489,6 @@ public class GuestIdpAuthenticationRequestFilter extends OncePerRequestFilter {
                     "&ref=" + user.getId());
             return false;
         } else if (!samlAuthenticationRequest.isPasswordOrWebAuthnFlow() && !samlAuthenticationRequest.isTiqrFlow() &&
-                !user.loginOptions().contains(LoginOptions.APP.getValue()) &&
                 user.nudgeToApp(nudgeAppDays, nudgeAppDelayDays)) {
             userRepository.save(user);
 

@@ -14,8 +14,8 @@
 
     let isEn = I18n.locale === "en";
     let helpUrl = isEn ? "/help_en/" : "/help/";
-    let privacyUrl = isEn ? "https://eduid.nl/privacy-policy/" : "https://eduid.nl/privacy/";
-    let termsUrl = isEn ? "https://eduid.nl/terms-of-use/" : "https://eduid.nl/gebruiksvoorwaarden/";
+    let privacyUrl = "https://mijn.govid.nl/privacyverklaring/";
+    let termsUrl = "https://mijn.govid.nl/voorwaarden/";
 
 </script>
 

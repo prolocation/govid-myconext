@@ -84,7 +84,6 @@ public class LoginControllerTest extends AbstractIntegrationTest {
                 .get("/register/{enrollmentVerificationKey}")
                 .then()
                 .statusCode(302)
-                .cookie("login_preference", "useApp")
                 .cookie("username", user.getEmail())
                 .header("Location",
                         "http://localhost:3001/security");

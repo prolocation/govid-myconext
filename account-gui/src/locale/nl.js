@@ -29,7 +29,7 @@ I18n.translations.nl = {
         usePasswordNoWebAuthn: "Typ een wachtwoord",
         useMagicLink: "Gebruik magische link",
         useMagicLinkNoWebAuthn: "Gebruik magische link.",
-        useWebAuth: "Login in met een beveligingssleutel",
+        useWebAuth: "Login in met een beveiligingssleutel",
         useOr: " of ",
         requestEduIdButton: "Vraag een govID aan",
         rememberMe: "Ingelogd blijven",

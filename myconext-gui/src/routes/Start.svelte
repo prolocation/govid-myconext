@@ -157,35 +157,6 @@
     <h2>{I18n.t("start.hi", {name: $user.chosenName})}</h2>
     <p class="manage">{I18n.t("start.manage")}</p>
     <div class="card-container">
-        {#if isEmpty($user.linkedAccounts)}
-            <div class="info-container">
-                <h4>{I18n.t("start.app.title")}</h4>
-                <div class="content-section">
-                    <div class="info-section">
-                        <p class="info">
-                            <span class="info-bold">{I18n.t("start.app.infoBold")}</span>
-                            <span>{I18n.t("start.app.infoPart")}</span>
-                        </p>
-                        <p class="requirements">{I18n.t("start.app.requirements")}</p>
-                        <ul>
-                            <li>{I18n.t("start.app.validatedName")}</li>
-                            <li>{I18n.t("start.app.proofStudent")}</li>
-                            <li>{I18n.t("start.app.institution")}</li>
-                        </ul>
-                    </div>
-                    <div class="image">
-                        {@html getApp}
-                        <div class="action">
-                            <Button label={I18n.t("start.app.connect")}
-                                    xxl={true}
-                                    onClick={() => addInstitution(true)}/>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        {/if}
-
         <div class="card" on:click={() => navigate("/personal")}>
             {@html personalInfoSvg}
             <h3>{I18n.t("sidebar.personalInfo")}</h3>

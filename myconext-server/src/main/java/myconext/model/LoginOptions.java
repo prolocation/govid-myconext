@@ -2,7 +2,7 @@ package myconext.model;
 
 public enum LoginOptions {
 
-    APP("useApp"), FIDO("useWebAuthn"), MAGIC("useLink"), PASSWORD("usePassword");
+    FIDO("useWebAuthn"), MAGIC("useLink"), PASSWORD("usePassword");
 
     private final String value;
 

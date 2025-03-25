@@ -503,16 +503,6 @@
             </div>
             <p class="info">{I18n.t("profile.info")}</p>
         </div>
-
-        {#if !eduIDLinked && isEmpty($user.linkedAccounts) && isEmpty($user.externalLinkedAccounts)}
-            <div class="banner">
-                <span class="verified-badge">{@html verifiedSvg}</span>
-                <p class="banner-info">{I18n.t("profile.banner")}</p>
-                <Button label={I18n.t("profile.verifyNow")}
-                        className="ghost transparent"
-                        onClick={() => addIdentity(true)}/>
-            </div>
-        {/if}
         {#if !eduIDLinked && (!isEmpty($user.linkedAccounts) || !isEmpty($user.externalLinkedAccounts))}
             <div class="banner expired">
                 <span class="verified-badge">{@html alertSvg}</span>

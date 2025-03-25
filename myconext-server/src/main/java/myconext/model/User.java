@@ -300,12 +300,6 @@ public class User implements Serializable, UserDetails {
     @JsonIgnore
     public List<String> loginOptions() {
         List<LoginOptions> result = new ArrayList<>();
-        //Order by priority
-        if (!CollectionUtils.isEmpty(this.surfSecureId) && (
-                this.surfSecureId.containsKey(SURFSecureID.PHONE_VERIFIED) ||
-                        this.surfSecureId.containsKey(SURFSecureID.RECOVERY_CODE))) {
-            result.add(LoginOptions.APP);
-        }
         if (!CollectionUtils.isEmpty(this.publicKeyCredentials)) {
             result.add(LoginOptions.FIDO);
         }

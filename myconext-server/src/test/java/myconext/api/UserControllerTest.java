@@ -990,7 +990,6 @@ public class UserControllerTest extends AbstractIntegrationTest {
 
                 });
         assertEquals(List.of(
-                LoginOptions.APP.getValue(),
                 LoginOptions.FIDO.getValue(),
                 LoginOptions.PASSWORD.getValue(),
                 LoginOptions.MAGIC.getValue()), loginOptions);

@@ -259,20 +259,6 @@
             {/each}
         {/if}
 
-        {#if !$user.loginOptions.includes("useApp")}
-            <h4 class="info">{I18n.t("security.recommendedOptions")}</h4>
-            <div class="tiqr-app">
-                <div class="information">
-                    <h4 class="grey">{I18n.t("security.tiqr.title")}</h4>
-                    <p>{@html I18n.t("security.tiqr.info")}</p>
-                    <Button label={I18n.t("security.tiqr.fetch")} large={true} onClick={() => navigate("/get-app")}/>
-                </div>
-                <div class="image">
-                    {@html getApp}
-                </div>
-            </div>
-            {/if}
-
         <h4 class="info">{I18n.t("security.otherMethods")}</h4>
         {#if !$user.usePassword}
             <SecurityOption action={() => navigate("/reset-password-link")}
