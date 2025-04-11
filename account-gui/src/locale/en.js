@@ -59,7 +59,7 @@ I18n.translations.en = {
         alreadyGuestAccount: "Already have an govID?",
         usePasswordLink: "Type a password anyway",
         useWebAuthnLink: "Or use a security key",
-        agreeWithTerms: "<span>I agree with <a tabindex='-1' href='https://govid.nl/terms-of-use/' target='_blank'>the terms of service.</a> I also understand <a tabindex='-1' href='https://govid.nl/privacy_policy/' target='_blank'>the privacy policy</a>.</span>",
+        agreeWithTerms: "<span>I agree with <a tabindex='-1' href='https://govroam.nl/aansluiten/voorwaarden/' target='_blank'>the terms of service.</a> I also understand <a tabindex='-1' href='https://govroam.nl/stichting-govroam/privacy/' target='_blank'>the privacy policy</a>.</span>",
         next: "Next",
         useOtherAccount: "Use another account",
         noAppAccess: "No access to your app?",

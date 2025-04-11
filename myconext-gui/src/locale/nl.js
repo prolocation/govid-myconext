@@ -523,7 +523,7 @@ I18n.translations.nl = {
         institutionDomainNameWarning2: "We raden je aan om je persoonlijke e-mailadres te gebruiken voor govID.",
         allowedDomainNamesError: "Domeinnaam {{domain}} niet toegestaan.",
         allowedDomainNamesError2: "govID is beperkt om alleen te worden gebruikt door toegestane domeinen.",
-        agreeWithTerms: "<span>Ik ga akkoord met <a tabindex='-1' href='https://govid.nl/gebruiksvoorwaarden/' target='_blank'>de voorwaarden.</a> En ik begrijp <a tabindex='-1' href='https://govid.nl/privacyverklaring/' target='_blank'>de privacyverklaring</a>.</span>",
+        agreeWithTerms: "<span>Ik ga akkoord met <a tabindex='-1' href='https://govroam.nl/aansluiten/voorwaarden/' target='_blank'>de voorwaarden.</a> En ik begrijp <a tabindex='-1' href='https://govroam.nl/stichting-govroam/privacy/' target='_blank'>de privacyverklaring</a>.</span>",
         requestEduIdButton: "Vraag je govID aan",
     },
     pollFromInstitution: {

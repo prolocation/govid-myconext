@@ -116,7 +116,7 @@
 
         <div class="info">
             <span>{I18n.t("footer.poweredBy")}</span>
-            <a href="https://surf.nl" target="_blank">{@html surfLogo}</a>
+            <a href="https://govid.nl" target="_blank">{@html surfLogo}</a>
         </div>
     </div>
 </div>

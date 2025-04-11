@@ -396,7 +396,7 @@ I18n.translations.en = {
     },
     getApp: {
         header: "Download the govID app",
-        info: "Download and install <a href=\"https://govid.nl/help\" target=\"_blank\">the govID app</a> (issued by SURF) on your mobile device.",
+        info: "Download and install <a href=\"https://https://wiki.support.govroam.nl/wiki/spaces/govconext/pages/298582021/govID\" target=\"_blank\">the govID app</a> (issued by SURF) on your mobile device.",
         google: "https://play.google.com/store/apps/details?id=nl.eduid",
         apple: "https://apps.apple.com/nl/app/eduid/id1600756434?l=en-GB",
         after: "When you've downloaded the govID app on your phone, come back here and click next.",
@@ -485,7 +485,7 @@ I18n.translations.en = {
         offline: "When your device is offline, you must enter a",
         offlineLink: "one time code.",
         lost: "Lost your app?",
-        lostLink: "Learn <a href=\"https://govid.nl/help\" target=\"_blank\">how to register a new one</a>.",
+        lostLink: "Learn <a href=\"https://https://wiki.support.govroam.nl/wiki/spaces/govconext/pages/298582021/govID\" target=\"_blank\">how to register a new one</a>.",
         timeOut: "Session timeout",
         timeOutInfoFirst: "Your session timed out. Click this ",
         timeOutInfoLast: " to try again.",
@@ -520,7 +520,7 @@ I18n.translations.en = {
         institutionDomainNameWarning2: "We recommend using your personal email address for govID.",
         allowedDomainNamesError: "Domain name {{domain}} not allowed.",
         allowedDomainNamesError2: "govID is restricted to be used only for allowed domains.",
-        agreeWithTerms: "<span>I agree with <a tabindex='-1' href='https://govid.nl/terms-of-use/' target='_blank'>the terms of service.</a> I also understand <a tabindex='-1' href='https://govid.nl/privacy_policy/' target='_blank'>the privacy policy</a>.</span>",
+        agreeWithTerms: "<span>I agree with <a tabindex='-1' href='https://govroam.nl/aansluiten/voorwaarden/' target='_blank'>the terms of service.</a> I also understand <a tabindex='-1' href='https://govroam.nl/stichting-govroam/privacy/' target='_blank'>the privacy policy</a>.</span>",
         requestEduIdButton: "Request your govID",
     },
     pollFromInstitution: {
@@ -562,7 +562,7 @@ I18n.translations.en = {
                 verifyEuropeanId: "Verify with a European ID",
                 supportEuropean: "We accept the ID's of Austria, Belgium, Croatia, Czech Republic, Denmark, Estonia, Germany, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Poland, Portugal, Slovakia, Slovenia, Spain and Sweden.",
                 useEuropean: "Use a European ID",
-                help: "If you can't use any of the these methods, please visit our <a href='https://govid.nl/help' target='_blank' rel='noreferrer'>support pages</a>"
+                help: "If you can't use any of the these methods, please visit our <a href='https://https://wiki.support.govroam.nl/wiki/spaces/govconext/pages/298582021/govID' target='_blank' rel='noreferrer'>support pages</a>"
             },
             bank: {
                 select: "Select your bank",
